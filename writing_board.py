@@ -46,7 +46,7 @@ def chose_color():
 
 
 ### eraser ###
-eraser = Image.open('eraser.png')
+eraser = Image.open('assets/eraser.png')
 eraser = eraser.resize((37, 35))
 eraser = ImageTk.PhotoImage(image=eraser)
 Button(root, bg='#f2f3f5', command=new_canvas, image=eraser, cursor='hand2').place(x=30, y=400)   
